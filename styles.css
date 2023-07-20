@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #f7e7d3;
+  color: #4d4d4d;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #844b10;
+}
+
+/* Estilos para el encabezado */
+header {
+  text-align: center;
+  background-color: #f0e5d1;
+  padding: 20px;
+}
+
+/* Estilos para el logotipo */
+.header-logo {
+  max-width: 200px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #f0e5d1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #844b10;
+  font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 20px;
+}
+
+/* Estilos para las citas o bloques de texto destacados */
+blockquote {
+  font-style: italic;
+  color: #844b10;
+  border-left: 5px solid #844b10;
+  padding-left: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff;
+}
+
+/* Estilos para botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #844b10;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5c310b;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  background-color: #f0e5d1;
+  padding: 10px;
+  color: #844b10;
+}
+
