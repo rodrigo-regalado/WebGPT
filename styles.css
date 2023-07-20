@@ -87,13 +87,21 @@ footer {
   color: #844b10;
 }
 
-/* CSS for the logo */
-header img {
+/* CSS for the logo container */
+.logo-container {
   width: 150px; /* Adjust the width to your desired size */
   height: 150px; /* Adjust the height to your desired size */
-  display: block; /* Ensures the image doesn't affect the layout */
-  border-radius: 50%; /* Creates a circular shape for the image */
-  object-fit: cover; /* Ensures the image fills the entire space and maintains aspect ratio */
-  margin: 0 auto; /* Centers the image horizontally */
+  border-radius: 50%; /* Creates a circular shape for the container */
+  overflow: hidden; /* Hides any content that exceeds the circular boundary */
+  margin: 0 auto; /* Centers the container horizontally */
 }
+
+/* CSS for the logo image */
+.logo-container img {
+  width: 100%; /* Makes the image fill the entire container */
+  height: 100%; /* Makes the image fill the entire container */
+  object-fit: cover; /* Ensures the image fills the container and maintains aspect ratio */
+}
+
+
 
