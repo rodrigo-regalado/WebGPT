@@ -19,10 +19,8 @@ header {
 
 /* Estilos para el logotipo */
 .header-logo {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 20px;
-  margin: 0 auto; /* Centers the logo horizontally */
 }
 
 .logo {
@@ -30,6 +28,8 @@ header {
   height: 150px; /* Adjust the height to your desired size */
   border-radius: 50%; /* Create the circular shape */
   overflow: hidden; /* Hide any content that exceeds the circular boundary */
+  display: block; /* Ensures the logo is treated as a block element */
+  margin: 0 auto; /* Centers the logo horizontally */
 }
 
 /* Estilos para la barra de navegación */
