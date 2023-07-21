@@ -34,7 +34,7 @@ header {
   height: 150px; /* Adjust the height to your desired size */
   border-radius: 50%; /* Create the circular shape */
   overflow: hidden; /* Hide any content that exceeds the circular boundary */
-  animation: rotateLogo 4s linear infinite;
+  animation: rotateLogo 30s linear infinite;
 }
 
 @keyframes rotateLogo {
